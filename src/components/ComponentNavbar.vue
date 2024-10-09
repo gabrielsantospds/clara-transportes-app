@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar nav navbar-expand-md">
+    <nav class="navbar navbar-expand-md">
         <div class="container-fluid grid gap-3 px-4">
             <a class="navbar-brand" href="#">
                 <img src="@/assets/brand-red-black-black.png" alt="logo-clara-transportes" width="160px">
@@ -57,9 +57,6 @@
 </template>
 
 <style scoped>
-.nav {
-    background-image: linear-gradient(to left, #FFFFFF 60%, #D6D6D6);
-}
 
 .icon-container {
     display: flex;
@@ -80,10 +77,6 @@
 }
 
 @media screen and (max-width: 767px) {
-
-    .nav {
-        background: #D6D6D6;
-    }
 
     .icon-container {
         display: none;
