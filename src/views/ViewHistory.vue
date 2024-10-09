@@ -1,9 +1,11 @@
 <script>
 import ComponentHistory from '@/components/ComponentHistory.vue';
+import ComponentOurValues from '@/components/ComponentOurValues.vue';
 
 export default {
     components: {
-        ComponentHistory
+        ComponentHistory,
+        ComponentOurValues
     }
 }
 
@@ -11,4 +13,5 @@ export default {
 
 <template>
     <ComponentHistory />
+    <ComponentOurValues />
 </template>

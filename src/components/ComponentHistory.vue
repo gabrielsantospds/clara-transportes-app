@@ -38,12 +38,17 @@
 }
 
 .text-light {
-    color: white
+    color: white;
 }
 
 .title {
     text-align: center;
     margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #00000030;
+}
+
+.text {
+    text-shadow: 1px 1px 4px #00000030;
 }
 
 @media screen and (max-width: 575px) {
