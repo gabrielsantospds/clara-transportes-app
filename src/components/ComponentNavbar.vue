@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-md">
         <div class="container-fluid grid gap-3 px-4">
             <a class="navbar-brand" href="#">
-                <img src="@/assets/brand-red-black-black.png" alt="logo-clara-transportes" width="160px">
+                <img src="@/assets/brand-red-black-black.png" alt="logo-clara-transportes" width="160px" class="img">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -57,19 +57,18 @@
 </template>
 
 <style scoped>
-
 .icon-container {
     display: flex;
     gap: 30px;
 }
 
 .link-external {
-    color: #201F1F;
+    color: var(--secondary-color);
 }
 
 .link-text {
     font-size: 17px;
-    color: #201F1F;
+    color: var(--secondary-color);
 }
 
 .link-text:hover {
@@ -77,6 +76,10 @@
 }
 
 @media screen and (max-width: 767px) {
+
+    .img {
+        width: 145px !important;
+    }
 
     .icon-container {
         display: none;

@@ -28,12 +28,12 @@
 
 .title {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #cc0000e7;
+    color: var(--primary-color);
     font-weight: 600;
     font-size: 70px;
     line-height: 70px;
     text-align: center;
-    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.288);
+    text-shadow: 0 2px 2px var(--shadow-color);
 }
 
 .container-div {
@@ -57,19 +57,19 @@
     width: 190px;
     height: 60px;
     border-radius: 30px;
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.288);
+    box-shadow: 0 3px 3px var(--shadow-color);
     font-size: 17px;
     font-weight: 500;
 }
 
 .button-1 {
-    background-color: #cc0000e7;
+    background-color: var(--primary-color);
     color: white;
     border: none;
 }
 
 .button-2 {
-    background-color: #201F1F;
+    background-color: var(--secondary-color);
     color: white;
     border: none;
 }

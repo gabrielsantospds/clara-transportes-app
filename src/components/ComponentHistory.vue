@@ -26,7 +26,7 @@
 <style scoped>
 .container-history {
     height: 450px;
-    background-color: #cc0000dc;
+    background-color: var(--primary-color);
     padding-top: 50px
 }
 
@@ -44,11 +44,11 @@
 .title {
     text-align: center;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px #00000030;
+    text-shadow: 2px 2px 4px var(--shadow-color);
 }
 
 .text {
-    text-shadow: 1px 1px 4px #00000030;
+    text-shadow: 1px 1px 4px var(--shadow-color);
 }
 
 @media screen and (max-width: 575px) {
@@ -60,7 +60,7 @@
     .content-history {
         padding-left: 12px !important;
         padding-bottom: 30px;
-        background-color: #cc0000dc;
+        background-color: var(--primary-color);
         height: auto;
     }
 
@@ -71,7 +71,7 @@
 
     .title {
         margin-top: 50px;
-        font-size: 35px
+        font-size: 40px
     }
 
     .text {
@@ -93,7 +93,7 @@
     .content-history {
         padding-left: 12px !important;
         padding-bottom: 30px;
-        background-color: #cc0000dc;
+        background-color: var(--primary-color);
         height: auto;
     }
 
@@ -128,7 +128,7 @@
         padding-top: 70px;
         padding-left: 12px !important;
         padding-bottom: 30px;
-        background-color: #cc0000dc;
+        background-color: var(--primary-color);
         height: auto;
     }
 

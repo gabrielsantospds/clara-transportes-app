@@ -1,3 +1,4 @@
+import ViewContactUs from '@/views/ViewContactUs.vue'
 import ViewHistory from '@/views/ViewHistory.vue'
 import ViewHome from '@/views/ViewHome.vue'
 import { createRouter, createWebHistory } from 'vue-router'
@@ -14,6 +15,11 @@ const router = createRouter({
       path: '/history',
       name: 'history',
       component: ViewHistory
+    },
+    {
+      path: '/contact-us',
+      name: 'contact-us',
+      component: ViewContactUs
     }
     // {
     //   path: '/about',

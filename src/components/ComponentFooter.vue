@@ -1,9 +1,9 @@
 <template>
     <div class="container container-footer">
-        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-5 my-5 border-top">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-5 my-5 border-top content-footer">
             <div class="col mb-3">
                 <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
-                    <img src="@/assets/brand-red-black-black.png" alt="" width="200px">
+                    <img src="@/assets/brand-red-black-black.png" alt="" width="160px" class="img">
                 </a>
             </div>
             <div class="col mb-3"></div>
@@ -42,8 +42,19 @@
 </template>
 
 <style scoped>
-
 .container-footer {
     padding: 0 60px;
+}
+
+.content-footer {
+    margin-bottom: 0 !important;
+}
+
+@media screen and (max-width: 767px) {
+
+    .img {
+        width: 145px !important;
+    }
+
 }
 </style>
