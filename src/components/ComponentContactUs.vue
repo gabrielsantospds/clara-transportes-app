@@ -1,9 +1,9 @@
 <template>
 
-    <div class="container container-main">
-        <div class="content content-1">
+    <div class="container main-container">
+        <div class="main-container__container container--red">
 
-            <h1 class="title title-white">
+            <h1 class="container__title container__title--white">
                 Contatos
             </h1>
 
@@ -102,33 +102,35 @@
                 </div>
             </div>
         </div>
-        <div class="content content-2">
+        <div class="main-container__container container--white">
 
-            <h1 class="title title-red">
+            <h1 class="container__title container__title--red">
                 Ouvidoria
             </h1>
-            <div class="mb-3 container-input">
-                <label for="input1" class="form-label label-text">Email address</label>
-                <input type="email" class="form-control input-text" id="input1">
-            </div>
-            <div class="mb-3 container-input">
-                <label for="input2" class="form-label label-text">Email address</label>
-                <input type="email" class="form-control input-text" id="input2">
-            </div>
-            <div class="mb-3 container-input">
-                <label for="textarea1" class="form-label label-text">Example textarea</label>
-                <textarea class="form-control textarea-text" id="textarea1" rows="4"></textarea>
-            </div>
-            <button class="button button-1">
-                ENVIAR
-            </button>
+            <form action="" class="container__form">
+                <div class="mb-3 form__form-field">
+                    <label for="input1" class="form-label form-field__label">Email address</label>
+                    <input type="email" class="form-control form-field__input" id="input1">
+                </div>
+                <div class="mb-3 form__form-field">
+                    <label for="input2" class="form-label form-field__label">Email address</label>
+                    <input type="email" class="form-control form-field__input" id="input2">
+                </div>
+                <div class="mb-3 form__form-field">
+                    <label for="textarea1" class="form-label form-field__label">Example textarea</label>
+                    <textarea class="form-control form-field__textarea" id="textarea1" rows="4"></textarea>
+                </div>
+                <button class="form__button">
+                    ENVIAR
+                </button>
+            </form>
         </div>
     </div>
 
 </template>
 
 <style scoped>
-.container-main {
+.main-container {
     display: flex;
     margin-top: 60px;
     padding: 0px;
@@ -144,19 +146,19 @@
     column-gap: 25%;
 }
 
-.container-input {
+.form__form-field {
     margin: auto;
     width: 69%
 }
 
-.content {
+.main-container__container {
     width: 50%;
     height: 100%;
     margin-bottom: 30px;
     padding-bottom: 20px
 }
 
-.content-1 {
+.container--red {
     background-color: var(--primary-color);
 }
 
@@ -179,18 +181,18 @@
     margin-right: 12px;
 }
 
-.title {
+.container__title {
     text-align: center;
     font-size: 60px;
     margin: 40px 0 40px 0;
     text-shadow: 0 2px 2px var(--shadow-color);
 }
 
-.title-white {
+.container__title--white {
     color: white;
 }
 
-.title-red {
+.container__title--red {
     color: var(--primary-color);
 }
 
@@ -206,20 +208,20 @@
     text-shadow: 0 1px 2px var(--shadow-color);
 }
 
-.label-text {
+.form-field__label {
     color: var(--primary-color);
 }
 
-.input-text {
+.form-field__input {
     border-color: var(--gray);
     height: 45px;
 }
 
-.textarea-text {
+.form-field__textarea {
     border-color: var(--gray);
 }
 
-.button {
+.form__button {
     display: block;
     margin: 40px auto !important;
     width: 170px;
@@ -235,11 +237,11 @@
 
 @media screen and (max-width: 575px) {
 
-    .title {
+    .container__title {
         font-size: 42px;
     }
 
-    .content-1 {
+    .container--red {
         padding: 0 10%;
     }
 
@@ -247,7 +249,7 @@
         column-gap: 10%;
     }
 
-    .container-input {
+    .form__form-field {
         width: 75%
     }
 
@@ -264,11 +266,11 @@
         font-size: 14px
     }
 
-    .input-text {
+    .form-field__input {
         height: 40px;
     }
 
-    .button {
+    .form__button {
         width: 120px;
         height: 48px;
         font-size: 14px;
@@ -296,11 +298,11 @@
         font-size: 16px
     }
 
-    .title {
+    .container__title {
         font-size: 48px;
     }
 
-    .button {
+    .form__button {
         width: 150px;
         height: 58px;
         font-size: 16px;
@@ -309,13 +311,13 @@
 
 @media screen and (max-width: 991px) {
 
-    .container-main {
+    .main-container {
         display: flex;
         flex-direction: column;
         margin-top: 0;
     }
 
-    .content {
+    .main-container__container {
         width: 100%;
     }
 
@@ -355,11 +357,11 @@
         font-size: 16px
     }
 
-    .title {
+    .container__title {
         font-size: 52px;
     }
 
-    .button {
+    .form__button {
         width: 150px;
         height: 58px;
         font-size: 16px;
