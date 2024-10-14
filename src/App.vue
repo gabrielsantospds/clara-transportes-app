@@ -36,7 +36,7 @@ import ComponentFooter from './components/ComponentFooter.vue';
 @media screen and (max-width: 991px) {
 
   .container-main {
-    background-image: linear-gradient(to top, #FFFFFF 20%, #D6D6D6);
+    background-image: linear-gradient(to top, #FFFFFF 50%, #D6D6D6);
   }
 
   .content-main {

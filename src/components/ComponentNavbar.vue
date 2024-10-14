@@ -10,7 +10,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse nav-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto grid gap-4">
+                <ul class="navbar-nav me-auto grid gap-3">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle link-text" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
@@ -59,7 +59,7 @@
 <style scoped>
 .icon-container {
     display: flex;
-    gap: 30px;
+    gap: 26px;
 }
 
 .link-external {

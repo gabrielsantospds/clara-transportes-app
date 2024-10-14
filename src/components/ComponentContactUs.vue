@@ -130,15 +130,15 @@
 <style scoped>
 .container-main {
     display: flex;
-    height: 650px;
-    margin-top: 70px;
+    margin-top: 60px;
     padding: 0px;
+    background: inherit;
 }
 
 .container-data {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 65%;
+    width: 64%;
     margin: 50px auto;
     row-gap: 40px;
     column-gap: 25%;
@@ -146,12 +146,14 @@
 
 .container-input {
     margin: auto;
-    width: 70%
+    width: 69%
 }
 
 .content {
     width: 50%;
     height: 100%;
+    margin-bottom: 30px;
+    padding-bottom: 20px
 }
 
 .content-1 {
@@ -166,7 +168,7 @@
 
 .content-data-1,
 .content-data-6 {
-    grid-template-columns: 0.85fr 7fr;
+    grid-template-columns: 0.8fr 7fr;
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -181,6 +183,7 @@
     text-align: center;
     font-size: 60px;
     margin: 40px 0 40px 0;
+    text-shadow: 0 2px 2px var(--shadow-color);
 }
 
 .title-white {
@@ -192,16 +195,19 @@
 }
 
 .data-title {
-    font-size: 22px
+    font-size: 22px;
+    text-shadow: 0 1px 2px var(--shadow-color);
+    padding-top: 4px;
 }
 
 .data-subtitle {
     font-size: 18px;
     font-weight: 400;
+    text-shadow: 0 1px 2px var(--shadow-color);
 }
 
 .label-text {
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 
 .input-text {
@@ -227,14 +233,35 @@
     border: none;
 }
 
-@media screen and (max-width: 439px) {
+@media screen and (max-width: 575px) {
 
     .title {
-        font-size: 38px;
+        font-size: 42px;
+    }
+
+    .content-1 {
+        padding: 0 10%;
+    }
+
+    .container-data {
+        column-gap: 10%;
     }
 
     .container-input {
-        width: 80%
+        width: 75%
+    }
+
+    .icon-svg {
+        width: 28px;
+        height: 28px;
+    }
+
+    .data-title {
+        font-size: 18px;
+    }
+
+    .data-subtitle {
+        font-size: 14px
     }
 
     .input-text {
@@ -248,7 +275,26 @@
     }
 }
 
-@media screen and (min-width: 440px) and (max-width: 767px) {
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    .container-data {
+        width: 69%;
+        column-gap: 22%;
+    }
+
+    .icon-svg {
+        width: 32px;
+        height: 32px;
+    }
+
+    .data-title {
+        font-size: 20px;
+        padding-top: 3px;
+    }
+
+    .data-subtitle {
+        font-size: 16px
+    }
 
     .title {
         font-size: 48px;
@@ -263,31 +309,46 @@
 
 @media screen and (max-width: 991px) {
 
-    .container-contact {
+    .container-main {
         display: flex;
-        flex-direction: column
+        flex-direction: column;
+        margin-top: 0;
     }
 
     .content {
         width: 100%;
     }
 
+    .content-data-1,
+    .content-data-6 {
+        grid-template-columns: 0.7fr 7fr;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .container-data {
+        width: 62%;
+        column-gap: 30%;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 
     .container-data {
-        width: 75%;
-        column-gap: 15%;
+        width: 73%;
+        column-gap: 17%;
     }
 
-    .svg-icon {
-        width: 30px;
-        height: 30px;
+    .icon-svg {
+        width: 32px;
+        height: 32px;
     }
 
     .data-title {
         font-size: 20px;
+        padding-top: 3px;
     }
 
     .data-subtitle {
