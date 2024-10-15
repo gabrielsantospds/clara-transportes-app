@@ -159,7 +159,7 @@
 .container__title {
     text-align: center;
     font-size: 60px;
-    margin: 0 0 40px 0;
+    margin-bottom: 10%;
     text-shadow: 0 2px 2px var(--shadow-color);
 }
 
@@ -167,7 +167,7 @@
 
 .container--red {
     background-color: var(--primary-color);
-    padding: 4% 7%;
+    padding: 4% 7% 5% 7%;
 }
 
 .container__title--white {
@@ -178,7 +178,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 40px;
-    column-gap: 20%;
+    column-gap: 17%;
 }
 
 .data-card__item {
@@ -191,23 +191,30 @@
 .data-card__item--wide {
     grid-column-start: 1;
     grid-column-end: 3;
+    grid-template-columns: 1fr 4fr;
 }
 
 .data-card__icon-card {
     grid-row-start: 1;
     grid-row-end: 3;
     position: relative;
-    left: 20%;
+    left: 25%;
 }
 
 .data-card__icon-card--wide {
     position: relative;
-    left: 8%;
+    left: 17%;
+}
+
+.data-card__info-card {
+    position: relative;
+    top: 5%;
 }
 
 .data-card__info-card--wide {
     position: relative;
-    right: 30%
+    right: 7.7%;
+    top: 5%;
 }
 
 .data-card__title {
@@ -259,7 +266,88 @@
     border: none;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 429px) {
+
+    .container__title {
+        font-size: 40px;
+    }
+    
+    /* container red style */
+
+    .container--red {
+        padding: 6% 10% 8% 10%;
+    }
+
+    .container__data-card {
+        column-gap: 12%
+    }
+
+    .data-card__item--wide {
+        grid-template-columns: 1fr 7fr
+    }
+
+    .data-card__icon-card {
+        left: 20%
+    }
+
+    .data-card__icon {
+        width: 26px;
+        height: 26px;
+    }
+
+    .data-card__info-card--wide {
+        right: -2.5%  
+    }
+
+    .data-card__title {
+        font-size: 16px;
+    }
+
+    .data-card__subtitle {
+        font-size: 12px
+    }
+
+}
+
+@media screen and (min-width: 430px) and (max-width: 484px) {
+
+    /* container red style */
+
+    .container--red {
+        padding: 6% 12% 8% 12%;
+    }
+
+    .container__data-card {
+        column-gap: 18%
+    }
+
+    .container__title {
+        font-size: 40px;
+    }
+
+    .data-card__info-card {
+        top: 8%
+    }
+
+    .data-card__info-card--wide {
+        top: 8%;     
+    }
+
+    .data-card__icon {
+        width: 26px;
+        height: 26px;
+    }
+
+    .data-card__title {
+        font-size: 16px;
+    }
+
+    .data-card__subtitle {
+        font-size: 12px
+    }
+}
+
+@media screen and (min-width: 485px) and (max-width: 575px) {
 
     .container__title {
         font-size: 42px;
@@ -268,11 +356,11 @@
     /* container red style */
 
     .container--red {
-        padding: 0 10%;
+        padding: 6% 14% 8% 14%;
     }
 
     .container__data-card {
-        column-gap: 10%;
+        column-gap: 18%
     }
 
     .data-card__icon {
@@ -308,14 +396,39 @@
 @media screen and (min-width: 576px) and (max-width: 767px) {
 
     .container__title {
-        font-size: 48px;
+        font-size: 52px;
     }
 
     /* container red style */
 
+    .container--red {
+        padding: 8% 14% 10% 14%;
+    }
+
+    .container__data-card {
+        column-gap: 16%;
+    }
+
+    .data-card__icon-card {
+        left: 22%
+    }
+
+    .data-card__icon-card--wide {
+        left: 15%
+    }
+
     .data-card__icon {
         width: 32px;
         height: 32px;
+    }
+
+    .data-card__info-card {
+        top: 0%
+    }
+
+    .data-card__info-card--wide {
+        top: 0%;
+        right: 7.5%        
     }
 
     .data-card__title {
@@ -352,6 +465,25 @@
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
+    .container--red {
+        padding: 7% 17% 9% 17%;
+    }
+
+    .container__data-card {
+        column-gap: 24%;
+    }
+
+    .data-card__icon-card {
+        left: 20%;
+    }
+
+    .data-card__icon-card--wide {
+        left: 12%;
+    }
+
+    .data-card__info-card--wide {
+        right: 9.2%
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -362,9 +494,30 @@
 
     /* container red style */
 
+    .container--red {
+        padding: 4% 6% 5% 6%;
+    }
+
+    .container__data-card {
+        column-gap: 12%;
+    }
+
+    .data-card__icon-card--wide {
+        left: 18%;
+    }
+
     .data-card__icon {
         width: 32px;
         height: 32px;
+    }
+
+    .data-card__info-card,
+    .data-card__info-card--wide {
+        top: 0px;
+    }
+
+    .data-card__info-card--wide {
+        right: 6.6%;
     }
 
     .data-card__title {
@@ -387,5 +540,12 @@
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
 
+    .data-card__icon-card {
+        left: 17%;
+    }
+
+    .data-card__icon-card--wide {
+        left: 12%;
+    }
 }
 </style>
