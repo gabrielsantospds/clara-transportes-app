@@ -230,13 +230,17 @@
 
 /* container white style */
 
+.container--white {
+   padding: 4% 7% 5% 7%;
+}
+
 .container__title--red {
     color: var(--primary-color);
+    margin-bottom: 6%;
 }
 
 .form__field {
     margin: auto;
-    width: 69%
 }
 
 .form__label {
@@ -254,7 +258,7 @@
 
 .form__button {
     display: block;
-    margin: 40px auto !important;
+    margin: 6% auto 0 auto !important;
     width: 170px;
     height: 60px;
     border-radius: 30px;
@@ -307,6 +311,22 @@
         font-size: 12px
     }
 
+    /* container white style */
+
+    .container--white {
+        padding: 6% 10% 8% 10%;
+    }
+
+    .form__input {
+        height: 40px;
+    }
+
+    .form__button {
+        width: 120px;
+        height: 48px;
+        font-size: 14px;
+    }
+
 }
 
 @media screen and (min-width: 430px) and (max-width: 484px) {
@@ -345,6 +365,22 @@
     .data-card__subtitle {
         font-size: 12px
     }
+
+    /* container white style */
+
+    .container--white {
+        padding: 6% 12% 8% 12%;
+    }
+
+    .form__input {
+        height: 40px;
+    }
+
+    .form__button {
+        width: 120px;
+        height: 48px;
+        font-size: 14px;
+    }
 }
 
 @media screen and (min-width: 485px) and (max-width: 575px) {
@@ -378,8 +414,8 @@
 
     /* container white style */
 
-    .form__field {
-        width: 75%
+    .container--white {
+        padding: 6% 14% 8% 14%;
     }
 
     .form__input {
@@ -442,6 +478,10 @@
 
     /* container white style */
 
+    .container--white {
+        padding: 8% 14% 10% 14%;
+    }
+
     .form__button {
         width: 150px;
         height: 58px;
@@ -465,6 +505,8 @@
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
+    /* container red style */
+
     .container--red {
         padding: 7% 17% 9% 17%;
     }
@@ -483,6 +525,12 @@
 
     .data-card__info-card--wide {
         right: 9.2%
+    }
+
+    /* container white style */
+
+    .container--white {
+        padding: 7% 17% 9% 17%;
     }
 }
 
