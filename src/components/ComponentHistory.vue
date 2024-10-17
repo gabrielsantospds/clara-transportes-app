@@ -24,6 +24,7 @@
 </template>
 
 <style scoped>
+
 .container-history {
     height: 450px;
     background-color: var(--primary-color);

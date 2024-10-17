@@ -248,12 +248,12 @@
 }
 
 .form__input {
-    border-color: var(--gray);
+    border-color: var(--dark-gray);
     height: 45px;
 }
 
 .form__textarea {
-    border-color: var(--gray);
+    border-color: var(--dark-gray);
 }
 
 .form__button {

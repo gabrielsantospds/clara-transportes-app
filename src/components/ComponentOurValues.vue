@@ -31,7 +31,7 @@
 
 <style scoped>
 .content-values {
-    padding: 60px 0;
+    padding: 60px 0 0 0;
 }
 
 .content-values {
