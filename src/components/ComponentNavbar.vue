@@ -1,9 +1,9 @@
 <template>
     <nav class="navbar navbar-expand-md">
         <div class="container-fluid grid gap-3 px-4">
-            <a class="navbar-brand" href="#">
+            <RouterLink to="/" class="navbar-brand">
                 <img src="@/assets/brand-red-black-black.png" alt="logo-clara-transportes" width="160px" class="img">
-            </a>
+            </RouterLink>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -11,21 +11,24 @@
             </button>
             <div class="collapse navbar-collapse nav-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto grid gap-3">
+                    <li class="nav-item">
+                        <RouterLink to="/" class="nav-link link-text">Home</RouterLink>
+                    </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle link-text" href="#" role="button" data-bs-toggle="dropdown"
+                        <RouterLink to="/" class="nav-link dropdown-toggle link-text" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Serviços
-                        </a>
+                        </RouterLink>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item link-text" href="#">Cotação</a></li>
-                            <li><a class="dropdown-item link-text" href="#">Rastreamento</a></li>
+                            <li><RouterLink to="/" class="dropdown-item link-text">Cotação</RouterLink></li>
+                            <li><RouterLink to="/" class="dropdown-item link-text">Rastreamento</RouterLink></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link-text" href="#">Quem Somos</a>
+                        <RouterLink to="/quem-somos" class="nav-link link-text">Quem Somos</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link-text" href="#">Fale Conosco</a>
+                        <RouterLink to="/fale-conosco" class="nav-link link-text">Fale Conosco</RouterLink>
                     </li>
                 </ul>
             </div>
@@ -63,15 +66,23 @@
 }
 
 .link-external {
-    color: var(--secondary-color);
+    color: #201f1fe8;
+}
+
+.link-external:hover {
+    color: #000000;
 }
 
 .link-text {
     font-size: 17px;
-    color: var(--secondary-color);
+    color: #201f1fe8
 }
 
 .link-text:hover {
+    color: #000000;
+}
+
+.router-link-active {
     color: #000000;
 }
 

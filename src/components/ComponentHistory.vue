@@ -1,13 +1,13 @@
 <template>
 
-    <div class="container-fluid container-history">
-        <div class="container ps-5 content-history">
+    <div class="container-fluid main-container">
+        <div class="container ps-5 history-container">
 
-            <div class="content-1 col-lg-7">
-                <h1 class="text-light display-2 fw-bold title">
+            <div class="history-container__content col-lg-7">
+                <h1 class="history-container__info display-2 fw-bold history-container__title">
                     QUEM SOMOS
                 </h1>
-                <p class="text-light text fs-5 text-center">
+                <p class="history-container__info history-container__text fs-5 text-center">
                     There are many variations of passages of Lorem Ipsum available,
                     but the majority have suffered alteration in some form, by injected humour,
                     or randomised words which don't look even slightly believable.
@@ -17,7 +17,7 @@
                     but the majority have suffered alteration in some form, by injected humour.
                 </p>
             </div>
-            <img src="@/assets/person.png" alt="foto-funcionário" class="img">
+            <img src="@/assets/person.png" alt="foto-funcionário" class="history-container__image">
         </div>
     </div>
 
@@ -25,95 +25,95 @@
 
 <style scoped>
 
-.container-history {
+.main-container {
     height: 450px;
     background-color: var(--primary-color);
     padding-top: 50px
 }
 
-.content-history {
+.history-container {
     height: 350px;
     display: flex;
     flex-direction: row;
     gap: 100px;
 }
 
-.text-light {
+.history-container__info {
     color: white;
 }
 
-.title {
+.history-container__title {
     text-align: center;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px var(--shadow-color);
 }
 
-.text {
+.history-container__text {
     text-shadow: 1px 1px 4px var(--shadow-color);
 }
 
 @media screen and (max-width: 575px) {
 
-    .container-history {
+    .main-container {
         display: contents;
     }
 
-    .content-history {
+    .history-container {
         padding-left: 12px !important;
         padding-bottom: 30px;
         background-color: var(--primary-color);
         height: auto;
     }
 
-    .content-1 {
+    .history-container__content {
         width: 90%;
         margin: 0 auto;
     }
 
-    .title {
+    .history-container__title {
         margin-top: 50px;
         font-size: 40px
     }
 
-    .text {
+    .history-container__text {
         font-size: 15px !important;
         line-height: 37px
     }
 
-    .img {
+    .history-container__image {
         display: none;
     }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
 
-    .container-history {
+    .main-container {
         display: contents;
     }
 
-    .content-history {
+    .history-container {
         padding-left: 12px !important;
         padding-bottom: 30px;
         background-color: var(--primary-color);
         height: auto;
     }
 
-    .content-1 {
+    .history-container__content {
         width: 80%;
         margin: 0 auto;
     }
 
-    .title {
+    .history-container__title {
         margin-top: 50px;
         font-size: 45px
     }
 
-    .text {
+    .history-container__text {
         font-size: 16px !important;
         line-height: 37px
     }
 
-    .img {
+    .history-container__image {
         display: none;
     }
 
@@ -121,11 +121,11 @@
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
-    .container-history {
+    .main-container {
         display: contents;
     }
 
-    .content-history {
+    .history-container {
         padding-top: 70px;
         padding-left: 12px !important;
         padding-bottom: 30px;
@@ -133,20 +133,20 @@
         height: auto;
     }
 
-    .content-1 {
+    .history-container__content {
         width: 80%;
         margin: 0 auto;
     }
 
-    .img {
+    .history-container__image {
         display: none;
     }
 
-    .title {
+    .history-container__title {
         font-size: 70px
     }
 
-    .text {
+    .history-container__text {
         margin-top: 40px;
         line-height: 45px;
     }
@@ -155,22 +155,22 @@
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 
-    .content-history {
+    .history-container {
         gap: 60px;
         padding-left: 12px !important;
     }
 
-    .img {
+    .history-container__image {
         width: 310px;
         height: 310px;
         margin-top: 25px
     }
 
-    .title {
+    .history-container__title {
         font-size: 60px
     }
 
-    .text {
+    .history-container__text {
         line-height: 30px;
         font-size: 18px !important;
     }
@@ -179,15 +179,15 @@
 
 @media screen and (min-width: 1200px) {
 
-    .title {
+    .history-container__title {
         margin: 25px 0px
     }
 
-    .text-light {
+    .history-container__info {
         line-height: 32px;
     }
 
-    .text {
+    .history-container__text {
         margin: 50px 0 0 0
     }
 }

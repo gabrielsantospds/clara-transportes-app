@@ -1,0 +1,436 @@
+<template>
+
+    <div class="first-container container--red">
+
+        <h1 class="container__title container__title--white">
+            Contatos
+        </h1>
+
+        <div class="container__data-card">
+            <div class="data-card__item data-card__item--wide">
+                <div class="data-card__icon-card--wide">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                        class="bi bi-telephone data-card__icon" viewBox="0 0 16 16">
+                        <path
+                            d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                    </svg>
+                </div>
+                <div class="data-card__info-card--wide">
+                    <h3 class="data-card__title">
+                        TELEFONE
+                    </h3>
+                    <h4 class="data-card__subtitle">
+                        21 3435-3534
+                    </h4>
+                </div>
+            </div>
+            <div class="data-card__item">
+                <div class="data-card__icon-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                        class="bi bi-whatsapp data-card__icon" viewBox="0 0 16 16">
+                        <path
+                            d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                    </svg>
+                </div>
+                <div class="data-card__info-card">
+                    <h3 class="data-card__title">
+                        LEANDRO
+                    </h3>
+                    <h4 class="data-card__subtitle">
+                        21 3435-3534
+                    </h4>
+                </div>
+            </div>
+            <div class="data-card__item">
+                <div class="data-card__icon-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                        class="bi bi-whatsapp data-card__icon" viewBox="0 0 16 16">
+                        <path
+                            d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                    </svg>
+                </div>
+                <div class="data-card__info-card">
+                    <h3 class="data-card__title">
+                        SERGIO
+                    </h3>
+                    <h4 class="data-card__subtitle">
+                        21 3435-3534
+                    </h4>
+                </div>
+            </div>
+            <div class="data-card__item">
+                <div class="data-card__icon-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                        class="bi bi-whatsapp data-card__icon" viewBox="0 0 16 16">
+                        <path
+                            d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                    </svg>
+                </div>
+                <div class="data-card__info-card">
+                    <h3 class="data-card__title">
+                        RENATA
+                    </h3>
+                    <h4 class="data-card__subtitle">
+                        21 3435-3534
+                    </h4>
+                </div>
+            </div>
+            <div class="data-card__item">
+                <div class="data-card__icon-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                        class="bi bi-whatsapp data-card__icon" viewBox="0 0 16 16">
+                        <path
+                            d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                    </svg>
+                </div>
+                <div class="data-card__info-card">
+                    <h3 class="data-card__title">
+                        LUCIANA
+                    </h3>
+                    <h4 class="data-card__subtitle">
+                        21 3435-3534
+                    </h4>
+                </div>
+            </div>
+            <div class="data-card__item data-card__item--wide">
+                <div class="data-card__icon-card--wide">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                        class="bi bi-geo-alt data-card__icon" viewBox="0 0 16 16">
+                        <path
+                            d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                    </svg>
+                </div>
+                <div class="data-card__info-card--wide">
+                    <h3 class="data-card__title">
+                        ENDEREÇO
+                    </h3>
+                    <h4 class="data-card__subtitle">
+                        RUA NIVALDO GUERREIRO NUNES, 450 <br>
+                        DISTRITO INDUSTRIAL, UBERLÂNDIA MG
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</template>
+
+<style scoped>
+
+.first-container {
+    width: 50%;
+    height: 100%;
+    margin-bottom: 30px;
+    padding-bottom: 20px
+}
+
+.container__title {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 10%;
+    text-shadow: 0 2px 2px var(--shadow-color);
+}
+
+.container--red {
+    background-color: var(--primary-color);
+    padding: 4% 7% 5% 7%;
+}
+
+.container__title--white {
+    color: white;
+}
+
+.container__data-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 17%;
+}
+
+.data-card__item {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.data-card__item--wide,
+.data-card__item--wide {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-template-columns: 1fr 4fr;
+}
+
+.data-card__icon-card {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    position: relative;
+    left: 25%;
+}
+
+.data-card__icon-card--wide {
+    position: relative;
+    left: 17%;
+}
+
+.data-card__info-card {
+    position: relative;
+    top: 5%;
+}
+
+.data-card__info-card--wide {
+    position: relative;
+    right: 7.7%;
+    top: 5%;
+}
+
+.data-card__title {
+    font-size: 22px;
+    text-shadow: 0 1px 2px var(--shadow-color);
+}
+
+.data-card__subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    text-shadow: 0 1px 2px var(--shadow-color);
+}
+
+@media screen and (max-width: 429px) {
+
+    .container__title {
+        font-size: 40px;
+    }
+
+    .container--red {
+        padding: 6% 10% 8% 10%;
+    }
+
+    .container__data-card {
+        column-gap: 12%
+    }
+
+    .data-card__item--wide {
+        grid-template-columns: 1fr 7fr
+    }
+
+    .data-card__icon-card {
+        left: 20%
+    }
+
+    .data-card__icon {
+        width: 26px;
+        height: 26px;
+    }
+
+    .data-card__info-card--wide {
+        right: -2.5%
+    }
+
+    .data-card__title {
+        font-size: 16px;
+    }
+
+    .data-card__subtitle {
+        font-size: 12px
+    }
+
+}
+
+@media screen and (min-width: 430px) and (max-width: 484px) {
+
+    .container--red {
+        padding: 6% 12% 8% 12%;
+    }
+
+    .container__data-card {
+        column-gap: 18%
+    }
+
+    .container__title {
+        font-size: 40px;
+    }
+
+    .data-card__info-card {
+        top: 8%
+    }
+
+    .data-card__info-card--wide {
+        top: 8%;
+    }
+
+    .data-card__icon {
+        width: 26px;
+        height: 26px;
+    }
+
+    .data-card__title {
+        font-size: 16px;
+    }
+
+    .data-card__subtitle {
+        font-size: 12px
+    }
+
+}
+
+@media screen and (min-width: 485px) and (max-width: 575px) {
+
+    .container__title {
+        font-size: 42px;
+    }
+
+    .container--red {
+        padding: 6% 14% 8% 14%;
+    }
+
+    .container__data-card {
+        column-gap: 18%
+    }
+
+    .data-card__icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    .data-card__title {
+        font-size: 18px;
+    }
+
+    .data-card__subtitle {
+        font-size: 14px
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    .container__title {
+        font-size: 52px;
+    }
+
+    .container--red {
+        padding: 8% 14% 10% 14%;
+    }
+
+    .container__data-card {
+        column-gap: 16%;
+    }
+
+    .data-card__icon-card {
+        left: 22%
+    }
+
+    .data-card__icon-card--wide {
+        left: 15%
+    }
+
+    .data-card__icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .data-card__info-card {
+        top: 0%
+    }
+
+    .data-card__info-card--wide {
+        top: 0%;
+        right: 7.5%
+    }
+
+    .data-card__title {
+        font-size: 20px;
+        padding-top: 3px;
+    }
+
+    .data-card__subtitle {
+        font-size: 16px
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    .first-container {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .container--red {
+        padding: 7% 17% 9% 17%;
+    }
+
+    .container__data-card {
+        column-gap: 24%;
+    }
+
+    .data-card__icon-card {
+        left: 20%;
+    }
+
+    .data-card__icon-card--wide {
+        left: 12%;
+    }
+
+    .data-card__info-card--wide {
+        right: 9.2%
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .container__title {
+        font-size: 52px;
+    }
+
+    .container--red {
+        padding: 4% 6% 5% 6%;
+    }
+
+    .container__data-card {
+        column-gap: 12%;
+    }
+
+    .data-card__icon-card--wide {
+        left: 18%;
+    }
+
+    .data-card__icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .data-card__info-card,
+    .data-card__info-card--wide {
+        top: 0px;
+    }
+
+    .data-card__info-card--wide {
+        right: 6.6%;
+    }
+
+    .data-card__title {
+        font-size: 20px;
+        padding-top: 3px;
+    }
+
+    .data-card__subtitle {
+        font-size: 16px
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+
+    .data-card__icon-card {
+        left: 17%;
+    }
+
+    .data-card__icon-card--wide {
+        left: 12%;
+    }
+}
+</style>

@@ -1,7 +1,7 @@
 <template>
     <div class="container main-container">
 
-        <div class="main-container__text-container">
+        <div class="text-container">
             <h1 class="text-container__title">
                 Mais que <br>
                 Uma empresa, <br>
@@ -17,7 +17,7 @@
                 </button>
             </div>
         </div>
-        <div class="main-container__image-container">
+        <div class="image-container">
             <img src="@/assets/caminhao-verm.png" class="image-container__image" alt="" width="350px">
         </div>
 
@@ -31,7 +31,7 @@
     margin-top: 4%;
 }
 
-.main-container__text-container {
+.text-container {
     padding-top: 2%;
 }
 

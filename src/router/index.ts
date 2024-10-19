@@ -12,12 +12,12 @@ const router = createRouter({
       component: ViewHome
     },
     {
-      path: '/history',
+      path: '/quem-somos',
       name: 'history',
       component: ViewHistory
     },
     {
-      path: '/contact-us',
+      path: '/fale-conosco',
       name: 'contact-us',
       component: ViewContactUs
     }
