@@ -1,7 +1,7 @@
 <script lang="ts">
 
 export default {
-    
+
 }
 
 </script>
@@ -44,6 +44,13 @@ export default {
 
 .container--white {
     padding: 4% 7% 5% 7%;
+}
+
+.container__title {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 10%;
+    text-shadow: 0 2px 2px var(--shadow-color);
 }
 
 .container__title--red {
@@ -110,6 +117,10 @@ export default {
 
     .container--white {
         padding: 6% 12% 8% 12%;
+    }
+
+    .container__title {
+        font-size: 40px;
     }
 
     .form__input {

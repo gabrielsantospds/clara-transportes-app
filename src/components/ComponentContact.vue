@@ -1,7 +1,7 @@
 <script lang="ts">
 
 export default {
-    
+
 }
 
 </script>
@@ -210,7 +210,7 @@ export default {
     }
 
     .container--red {
-        padding: 6% 10% 8% 10%;
+        padding: 8% 10% 10% 10%;
     }
 
     .container__data-card {
@@ -247,7 +247,7 @@ export default {
 @media screen and (min-width: 430px) and (max-width: 484px) {
 
     .container--red {
-        padding: 6% 12% 8% 12%;
+        padding: 10% 12% 12% 12%;
     }
 
     .container__data-card {
@@ -288,7 +288,7 @@ export default {
     }
 
     .container--red {
-        padding: 6% 14% 8% 14%;
+        padding: 10% 14% 12% 14%;
     }
 
     .container__data-card {
@@ -317,7 +317,7 @@ export default {
     }
 
     .container--red {
-        padding: 8% 14% 10% 14%;
+        padding: 10% 14% 12% 14%;
     }
 
     .container__data-card {
@@ -368,7 +368,7 @@ export default {
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
     .container--red {
-        padding: 7% 17% 9% 17%;
+        padding: 9% 17% 12% 17%;
     }
 
     .container__data-card {
