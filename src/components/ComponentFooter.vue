@@ -1,3 +1,11 @@
+<script lang="ts">
+
+export default {
+
+}
+
+</script>
+
 <template>
     <div class="container container-footer">
         <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-5 my-5 border-top content-footer">

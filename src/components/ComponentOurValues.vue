@@ -1,3 +1,11 @@
+<script lang="ts">
+
+export default {
+    
+}
+
+</script>
+
 <template>
     <div class="container main-container">
         <div class="values-container">

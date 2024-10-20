@@ -1,6 +1,6 @@
-<script>
-import ComponentContact from '@/components/ComponentContact.vue';
-import ComponentFeedback from '@/components/ComponentFeedback.vue';
+<script lang="ts">
+import ComponentContact from '../components/ComponentContact.vue';
+import ComponentFeedback from '../components/ComponentFeedback.vue';
 
 export default {
     components: {

@@ -1,3 +1,11 @@
+<script lang="ts">
+
+export default {
+    
+}
+
+</script>
+
 <template>
     <nav class="navbar navbar-expand-md">
         <div class="container-fluid grid gap-3 px-4">

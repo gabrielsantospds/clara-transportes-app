@@ -1,5 +1,5 @@
-<script>
-import ComponentHome from '@/components/ComponentHome.vue';
+<script lang="ts">
+import ComponentHome from '../components/ComponentHome.vue';
 
 export default {
 

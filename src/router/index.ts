@@ -1,6 +1,6 @@
-import ViewContactUs from '@/views/ViewContactUs.vue'
-import ViewHistory from '@/views/ViewHistory.vue'
-import ViewHome from '@/views/ViewHome.vue'
+import ViewContactUs from '../views/ViewContactUs.vue'
+import ViewHistory from '../views/ViewHistory.vue'
+import ViewHome from '../views/ViewHome.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({

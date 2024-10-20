@@ -1,7 +1,16 @@
-<script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+<script lang="ts">
+
+import { RouterView } from 'vue-router'
 import ComponentNavbar from './components/ComponentNavbar.vue';
 import ComponentFooter from './components/ComponentFooter.vue';
+
+export default {
+  components: {
+    ComponentNavbar,
+    ComponentFooter,
+    RouterView
+  }
+}
 
 </script>
 

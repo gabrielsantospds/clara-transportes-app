@@ -1,6 +1,6 @@
-<script>
-import ComponentHistory from '@/components/ComponentHistory.vue';
-import ComponentOurValues from '@/components/ComponentOurValues.vue';
+<script lang="ts">
+import ComponentHistory from '../components/ComponentHistory.vue';
+import ComponentOurValues from '../components/ComponentOurValues.vue';
 
 export default {
     components: {
