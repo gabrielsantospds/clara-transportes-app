@@ -15,15 +15,15 @@ export default {
         </h1>
         <form action="" class="container__form">
             <div class="mb-3 form__field">
-                <label for="input1" class="form-label form__label">Email address</label>
-                <input type="email" class="form-control form__input" id="input1">
+                <label for="input1" class="form-label form__label">Nome</label>
+                <input type="text" class="form-control form__input" id="input1">
             </div>
             <div class="mb-3 form__field">
-                <label for="input2" class="form-label form__label">Email address</label>
+                <label for="input2" class="form-label form__label">Email</label>
                 <input type="email" class="form-control form__input" id="input2">
             </div>
             <div class="mb-3 form__field">
-                <label for="textarea1" class="form-label form__label">Example textarea</label>
+                <label for="textarea1" class="form-label form__label">Mensagem</label>
                 <textarea class="form-control form__textarea" id="textarea1" rows="4"></textarea>
             </div>
             <button class="form__button">
